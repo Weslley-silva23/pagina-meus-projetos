@@ -58,7 +58,7 @@ span {
     position: relative;
     top: 45px;
     right: 500px;
-  
+
 
 }
 
@@ -217,12 +217,234 @@ p {
     font-size: 30px;
     text-align: center;
     text-transform: capitalize;
-    color:white;
+    color: white;
     margin-top: -240px;
     letter-spacing: 1px;
     word-spacing: 1px;
     width: 80%;
     margin-left: 170px;
-    
-    
+
+
+}
+
+
+
+
+@media screen and (max-width:767px) {
+
+    body {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+
+    h1,
+    span {
+
+        color: #FFF;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 2px;
+
+    }
+
+    .video-1 {
+
+        width: 471px;
+        height: 332px;
+        margin-right: 83px;
+
+    }
+
+    .button-1 {
+
+        width: 299px;
+        height: 35px;
+        fill: #8A2BE2;
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.9px;
+        position: relative;
+        left: 15vh;
+        top: 1vh;
+
+    }
+
+    .video-2 {
+
+
+        width: 471px;
+        height: 332px;
+        margin-left: 54vh;
+    }
+
+    .button-2 {
+
+        width: 299px;
+        height: 35px;
+        fill: #8A2BE2;
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.9px;
+        position: relative;
+        left: 35vh;
+        top: 0vh;
+
+
+    }
+
+    .video-3 {
+        width: 471px;
+        height: 332px;
+        position: relative;
+        left: -1vh;
+        top: -1vh;
+
+
+    }
+
+    .button-3 {
+        width: 299px;
+        height: 35px;
+        fill: #8A2BE2;
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.9px;
+        position: relative;
+        left: 10vh;
+        top: -1vh;
+
+    }
+
+    .video-4 {
+
+        position: relative;
+        top: 3vh;
+        left: -1vh;
+        width: 471px;
+        height: 332px;
+
+    }
+
+
+    .button-4 {
+        position: relative;
+        bottom: 59vh;
+        left: 1vh;
+        width: 299px;
+        height: 35px;
+        fill: #8A2BE2;
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.9px;
+
+    }
+
+    .video-5 {
+
+        width: 471px;
+        height: 332px;
+        position: relative;
+        top: 10vh;
+        right: 8vh;
+
+    }
+
+    .button-5 {
+
+        width: 299px;
+        height: 35px;
+        fill: #8A2BE2;
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.9px;
+        position: relative;
+        left: 0vh;
+        bottom: 27vh;
+    }
+
+
+    .video-6 {
+        width: 471px;
+        height: 332px;
+        position: relative;
+        top: 16vh;
+        right: 6vh;
+    }
+
+    .button-6 {
+
+        width: 299px;
+        height: 35px;
+        fill: #8A2BE2;
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.9px;
+        position: relative;
+        left: 0vh;
+        top: 6vh;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    p {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
