@@ -252,14 +252,19 @@ p {
         font-size: 40px;
         font-weight: 700;
         letter-spacing: 2px;
+        white-space: nowrap;
+        width: 126px;
+
+
 
     }
 
     .video-1 {
 
-        width: 471px;
+        margin-left: 22vh;
+        width: 547px;
         height: 332px;
-        margin-right: 83px;
+
 
     }
 
@@ -274,7 +279,7 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 15vh;
+        left: 35vh;
         top: 1vh;
 
     }
@@ -282,9 +287,9 @@ p {
     .video-2 {
 
 
-        width: 471px;
+        width: 555px;
         height: 332px;
-        margin-left: 54vh;
+        margin-left: 86vh;
     }
 
     .button-2 {
@@ -298,18 +303,19 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 35vh;
-        top: 0vh;
+        left: 68vh;
+        top: 1vh;
 
 
     }
 
     .video-3 {
-        width: 471px;
+        width: 555px;
         height: 332px;
         position: relative;
-        left: -1vh;
+        left: 10vh;
         top: -1vh;
+
 
 
     }
@@ -324,8 +330,8 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 10vh;
-        top: -1vh;
+        left: 26vh;
+        top: 0vh;
 
     }
 
@@ -333,17 +339,16 @@ p {
 
         position: relative;
         top: 3vh;
-        left: -1vh;
-        width: 471px;
+        left: 12vh;
+        width: 555px;
         height: 332px;
-
     }
 
 
     .button-4 {
         position: relative;
-        bottom: 59vh;
-        left: 1vh;
+        bottom: 69vh;
+        left: 11vh;
         width: 299px;
         height: 35px;
         fill: #8A2BE2;
@@ -357,11 +362,11 @@ p {
 
     .video-5 {
 
-        width: 471px;
+        width: 555px;
         height: 332px;
         position: relative;
         top: 10vh;
-        right: 8vh;
+        left: 4vh;
 
     }
 
@@ -376,18 +381,19 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 0vh;
-        bottom: 27vh;
+        left: 12vh;
+        bottom: 32vh;
+    
     }
 
 
     .video-6 {
-        width: 471px;
+        width: 555px;
         height: 332px;
         position: relative;
         top: 16vh;
-        right: 6vh;
-    }
+        left: 6vh;
+        }
 
     .button-6 {
 
@@ -400,8 +406,9 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 0vh;
-        top: 6vh;
+        left: 10vh;
+        top: 5vh;
+    
 
     }
 
