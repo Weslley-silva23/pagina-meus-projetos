@@ -261,8 +261,8 @@ p {
 
     .video-1 {
 
-        margin-left: 22vh;
-        width: 547px;
+        margin-left: 17vh;
+        width: 540px;
         height: 332px;
 
 
@@ -279,7 +279,7 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 35vh;
+        left: 33vh;
         top: 1vh;
 
     }
@@ -287,9 +287,11 @@ p {
     .video-2 {
 
 
-        width: 555px;
+        width: 540px;
         height: 332px;
-        margin-left: 86vh;
+        position: relative;
+        left: 7vh;
+    
     }
 
     .button-2 {
@@ -303,17 +305,17 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 68vh;
+        left: 26vh;
         top: 1vh;
 
 
     }
 
     .video-3 {
-        width: 555px;
+        width: 540px;
         height: 332px;
         position: relative;
-        left: 10vh;
+        left: 7vh;
         top: -1vh;
 
 
@@ -339,8 +341,8 @@ p {
 
         position: relative;
         top: 3vh;
-        left: 12vh;
-        width: 555px;
+        left: 8vh;
+        width: 540px;
         height: 332px;
     }
 
@@ -362,11 +364,11 @@ p {
 
     .video-5 {
 
-        width: 555px;
+        width: 540px;
         height: 332px;
         position: relative;
         top: 10vh;
-        left: 4vh;
+        left: 1vh;
 
     }
 
@@ -388,11 +390,11 @@ p {
 
 
     .video-6 {
-        width: 555px;
+        width: 540px;
         height: 332px;
         position: relative;
         top: 16vh;
-        left: 6vh;
+        left: 3vh;
         }
 
     .button-6 {
@@ -412,27 +414,19 @@ p {
 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     p {
-        display: none;
-    }
 
+        color: #FFF;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 600;
+        position: relative;
+        top: 38vh;
+        width: 554px;
+        right: 1vh;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        word-spacing: 2px;}
 
 
 
