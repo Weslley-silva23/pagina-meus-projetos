@@ -341,7 +341,7 @@ p {
 
         position: relative;
         top: 3vh;
-        left: 8vh;
+        left: 9vh;
         width: 540px;
         height: 332px;
     }
@@ -349,7 +349,7 @@ p {
 
     .button-4 {
         position: relative;
-        bottom: 69vh;
+        bottom: 74vh;
         left: 11vh;
         width: 299px;
         height: 35px;
@@ -384,7 +384,7 @@ p {
         letter-spacing: 0.9px;
         position: relative;
         left: 12vh;
-        bottom: 32vh;
+        bottom: 35vh;
     
     }
 
@@ -409,7 +409,7 @@ p {
         letter-spacing: 0.9px;
         position: relative;
         left: 10vh;
-        top: 5vh;
+        top: 1vh;
     
 
     }
