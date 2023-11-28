@@ -349,7 +349,7 @@ p {
 
     .button-4 {
         position: relative;
-        bottom: 74vh;
+        bottom: 77vh;
         left: 11vh;
         width: 299px;
         height: 35px;
@@ -384,7 +384,7 @@ p {
         letter-spacing: 0.9px;
         position: relative;
         left: 12vh;
-        bottom: 35vh;
+        bottom: 38vh;
     
     }
 
@@ -427,25 +427,5 @@ p {
         text-transform: capitalize;
         letter-spacing: 1px;
         word-spacing: 2px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
