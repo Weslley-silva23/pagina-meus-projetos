@@ -252,7 +252,7 @@ p {
         font-size: 28px;
         font-weight: 700;
         letter-spacing: 2px;
-        margin-right: 85px;
+        margin-left: 125px;
         position: static;
 
 
@@ -261,7 +261,7 @@ p {
 
     .video-1 {
 
-        margin-left: 1vh;
+        margin-left: 16vh;
         width: 245px;
         
 
@@ -279,8 +279,8 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 3vh;
-        top: 0vh;
+        left: 19vh;
+        top: 1vh;
 
     }
 
@@ -288,7 +288,7 @@ p {
 
         width: 245px;
         position: relative;
-        left: -4vw;
+        left: 29vw;
     
     
     }
@@ -304,16 +304,16 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 3vh;
-        top: 0vh;
+        left: 19vh;
+        top: 1vh;
 
     }
 
     .video-3 {
         width: 245px;
         position: relative;
-        left: -4vw;
-        top: 0vh;
+        left: 29vw;
+        top: 1vh;
 
 
 
@@ -330,8 +330,8 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 3vh;
-        top: 0vh;
+        left: 19vh;
+        top: 2vh;
 
     }
 
@@ -339,8 +339,9 @@ p {
 
         width: 245px;
         position: relative;
-       right: 15vw;
-        top: 2vh;
+        left: 18vw;
+        top: 4vh;
+      
     }
 
 
@@ -354,16 +355,17 @@ p {
     font-weight: 700;
     letter-spacing: 0.9px;
     position: relative;
-    left: -8vh;
-    bottom: 29vh;
+    left: 7vh;
+    bottom: 27vh;
+
     }
 
     .video-5 {
 
         width: 245px;
         position: relative;
-        right: 32vw;
-        top: 7vh;
+        right: 0vw;
+        top: 9vh;
     
 
     }
@@ -379,8 +381,8 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: -17vw;
-        bottom: 13vh;
+        left: 15vw;
+        bottom: 12vh;
     
     }
 
@@ -388,8 +390,8 @@ p {
     .video-6 {
         width: 245px;
         position: relative;
-        left: -27vw;
-        top: 12vh;
+        left: 5vw;
+    top: 15vh;
         }
 
     .button-6 {
@@ -403,8 +405,8 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: -18vw;
-        top: 2vh;
+        left: 15vw;
+        top: 5vh;
     
 
     }
@@ -412,15 +414,15 @@ p {
     p {
 
         color: #FFF;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
-    position: relative;
-    top: 28vh;
-    width: 250px;
-    right: 39vw;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    word-spacing: 2px;}
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        position: relative;
+        top: 32vh;
+        width: 250px;
+        right: 6vw;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        word-spacing: 2px;}
 
 }
