@@ -252,7 +252,7 @@ p {
         font-size: 28px;
         font-weight: 700;
         letter-spacing: 2px;
-        margin-left: 125px;
+        margin-left: 45px;
         position: static;
 
 
@@ -261,17 +261,17 @@ p {
 
     .video-1 {
 
-        margin-left: 16vh;
-        width: 245px;
-        
+        margin-left: 21vw;
+        width: 270px;
+
 
 
     }
 
     .button-1 {
 
-        width: 201px;
-        height: 25px;
+        width: 220px;
+        height: 30px;
         fill: #8A2BE2;
         color: #FFF;
         text-align: center;
@@ -279,24 +279,24 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 19vh;
+        left: 28vw;
         top: 1vh;
 
     }
 
     .video-2 {
 
-        width: 245px;
+        width: 270px;
         position: relative;
-        left: 29vw;
-    
-    
+        left: 15vw;
+
+
     }
 
     .button-2 {
 
-        width: 201px;
-        height: 25px;
+        width: 220px;
+        height: 30px;
         fill: #8A2BE2;
         color: #FFF;
         text-align: center;
@@ -304,15 +304,15 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 19vh;
+        left: 28vw;
         top: 1vh;
 
     }
 
     .video-3 {
-        width: 245px;
+        width: 270px;
         position: relative;
-        left: 29vw;
+        left: 15vw;
         top: 1vh;
 
 
@@ -320,9 +320,9 @@ p {
     }
 
     .button-3 {
-        
-        width: 201px;
-        height: 25px;
+
+        width: 220px;
+        height: 30px;
         fill: #8A2BE2;
         color: #FFF;
         text-align: center;
@@ -330,50 +330,50 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 19vh;
-        top: 2vh;
+        left: 28vw;
+        top: 1vh;
 
     }
 
     .video-4 {
 
-        width: 245px;
+        width: 270px;
         position: relative;
-        left: 18vw;
+        left: 3.5vw;
         top: 4vh;
-      
+
     }
 
 
     .button-4 {
-        width: 201px;
-    height: 25px;
-    fill: #8A2BE2;
-    color: #FFF;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 0.9px;
-    position: relative;
-    left: 7vh;
-    bottom: 27vh;
+        width: 220px;
+        height: 30px;
+        fill: #8A2BE2;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 0.9px;
+        position: relative;
+        left: 5vw;
+        bottom: 31vh;
 
     }
 
     .video-5 {
 
-        width: 245px;
+        width: 270px;
         position: relative;
-        right: 0vw;
-        top: 9vh;
-    
+        right: 14vw;
+        top: 11vh;
+
 
     }
 
     .button-5 {
 
-        width: 201px;
-        height: 25px;
+        width: 220px;
+        height: 30px;
         fill: #8A2BE2;
         color: #FFF;
         text-align: center;
@@ -381,23 +381,23 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 15vw;
+        left: 5vw;
         bottom: 12vh;
-    
+
     }
 
 
     .video-6 {
-        width: 245px;
+        width: 270px;
         position: relative;
-        left: 5vw;
-    top: 15vh;
-        }
+        top: 19vh;
+        right: 9vw;
+    }
 
     .button-6 {
 
-        width: 201px;
-        height: 25px;
+        width: 220px;
+        height: 30px;
         fill: #8A2BE2;
         color: #FFF;
         text-align: center;
@@ -405,9 +405,9 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 15vw;
-        top: 5vh;
-    
+        left: 5vw;
+        top: 8vh;
+
 
     }
 
@@ -418,11 +418,12 @@ p {
         font-size: 18px;
         font-weight: 600;
         position: relative;
-        top: 32vh;
+        top: 34vh;
         width: 250px;
-        right: 6vw;
+        right: 15vw;
         text-transform: capitalize;
         letter-spacing: 1px;
-        word-spacing: 2px;}
+        word-spacing: 2px;
+    }
 
 }
