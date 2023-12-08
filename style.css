@@ -261,7 +261,7 @@ p {
 
     .video-1 {
 
-        margin-left: 21vw;
+        margin-left: 8vw;
         width: 370px;
 
 
@@ -279,7 +279,7 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 38vw;
+        left: 15vw;
         top: 1vh;
 
     }
@@ -288,7 +288,7 @@ p {
 
         width: 370px;
         position: relative;
-        left: 11vw;
+        left: 3vw;
 
 
     }
@@ -304,7 +304,7 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 38vw;
+        left: 15vw;
         top: 1vh;
 
     }
@@ -312,7 +312,7 @@ p {
     .video-3 {
         width: 370px;
         position: relative;
-        left: 11vw;
+        left: 3vw;
         top: 1vh;
 
 
@@ -330,7 +330,7 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 38vw;
+        left: 15vw;
         top: 1vh;
 
     }
@@ -339,7 +339,7 @@ p {
 
         width: 370px;
         position: relative;
-        left: 10.5vw;
+        left: 3vw;
         top: 4vh;
 
     }
@@ -354,17 +354,16 @@ p {
         font-size: 16px;
         font-weight: 700;
         letter-spacing: 0.9px;
-        position: relative;
-        left: 12vw;
-        bottom: 43vh;
-
+        position: absolute;
+        top: 121vh;
+        left: 67px;
     }
 
     .video-5 {
 
         width: 370px;
         position: relative;
-        right: 7vw;
+        right: 14vw;
         top: 11vh;
 
 
@@ -380,9 +379,9 @@ p {
         font-size: 16px;
         font-weight: 700;
         letter-spacing: 0.9px;
-        position: relative;
-        left: 5vw;
-        bottom: 18vh;
+        position: absolute;
+        top: 151vh;
+        left: 65px;
 
     }
 
@@ -391,7 +390,7 @@ p {
         width: 370px;
         position: relative;
         top: 19vh;
-        right: 2vw;
+        right: 9vw;
     }
 
     .button-6 {
@@ -404,9 +403,9 @@ p {
         font-size: 16px;
         font-weight: 700;
         letter-spacing: 0.9px;
-        position: relative;
-        left: 5vw;
-        top: 7vh;
+        position: absolute;
+        left: 17vw;
+        top: 182vh;
 
 
     }
@@ -418,7 +417,7 @@ p {
         font-size: 18px;
         font-weight: 600;
         position: relative;
-        top: 34vh;
+        top: 44vh;
         width: 350px;
         right: 15vw;
         text-transform: capitalize;
