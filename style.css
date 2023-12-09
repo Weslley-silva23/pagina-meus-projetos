@@ -261,7 +261,7 @@ p {
 
     .video-1 {
 
-        margin-left: 8vw;
+        margin-left: 6vw;
         width: 370px;
 
 
@@ -279,7 +279,7 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 15vw;
+        left: 18vw;
         top: 1vh;
 
     }
@@ -288,7 +288,7 @@ p {
 
         width: 370px;
         position: relative;
-        left: 3vw;
+        left: 0vw;
 
 
     }
@@ -304,7 +304,7 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 15vw;
+        left: 18vw;
         top: 1vh;
 
     }
@@ -312,7 +312,7 @@ p {
     .video-3 {
         width: 370px;
         position: relative;
-        left: 3vw;
+        left: 0vw;
         top: 1vh;
 
 
@@ -330,7 +330,7 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 15vw;
+        left: 18vw;
         top: 1vh;
 
     }
@@ -339,7 +339,7 @@ p {
 
         width: 370px;
         position: relative;
-        left: 3vw;
+        left: -2vw;
         top: 4vh;
 
     }
@@ -355,15 +355,15 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: absolute;
-        top: 121vh;
-        left: 67px;
+        top: 104vh;
+        left: 82px;;
     }
 
     .video-5 {
 
         width: 370px;
         position: relative;
-        right: 14vw;
+        right: 18vw;
         top: 11vh;
 
 
@@ -380,8 +380,8 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: absolute;
-        top: 151vh;
-        left: 65px;
+        top: 131vh;
+        left: 80px;
 
     }
 
@@ -390,7 +390,7 @@ p {
         width: 370px;
         position: relative;
         top: 19vh;
-        right: 9vw;
+        right: 14vw;
     }
 
     .button-6 {
@@ -404,8 +404,8 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: absolute;
-        left: 17vw;
-        top: 182vh;
+        left: 20vw;
+        top: 159vh;
 
 
     }
@@ -419,7 +419,7 @@ p {
         position: relative;
         top: 44vh;
         width: 350px;
-        right: 15vw;
+        right: 19vw;
         text-transform: capitalize;
         letter-spacing: 1px;
         word-spacing: 2px;
