@@ -279,7 +279,7 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 18vw;
+        left: 21vw;
         top: 1vh;
 
     }
@@ -304,7 +304,7 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 18vw;
+        left: 21vw;
         top: 1vh;
 
     }
@@ -330,7 +330,7 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: relative;
-        left: 18vw;
+        left: 21vw;
         top: 1vh;
 
     }
@@ -339,7 +339,7 @@ p {
 
         width: 370px;
         position: relative;
-        left: -2vw;
+        left: 0vw;
         top: 4vh;
 
     }
@@ -355,8 +355,8 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: absolute;
-        top: 146vh;
-        left: 82px;;
+        top: 144vh;
+        left: 88px;;
     }
 
     .video-5 {
@@ -380,8 +380,8 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: absolute;
-        top: 177vh;
-        left: 80px;
+        top: 176vh;
+        left: 85px;
 
     }
 
@@ -390,7 +390,7 @@ p {
         width: 370px;
         position: relative;
         top: 19vh;
-        right: 14vw;
+        right: 13vw;
     }
 
     .button-6 {
@@ -404,8 +404,8 @@ p {
         font-weight: 700;
         letter-spacing: 0.9px;
         position: absolute;
-        left: 20vw;
-        top: 205vh;
+        left: 22vw;
+        top: 210vh;
 
 
     }
