@@ -20,7 +20,7 @@ h1 {
 
     color: white;
     text-align: center;
-    font-size: 58px;
+    font-size: 40px;
     font-weight: 700;
     margin-top: 30px;
 }
@@ -34,92 +34,92 @@ span {
 }
 
 .video-1 {
-    width: 550px;
-    margin-left: 70px;
+    width: 400px;
+    margin-left: 40px;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
     cursor: pointer;
 
 }
 
 
 .button-1 {
-    width: 368px;
-    height: 44px;
+    width: 300px;
+    height: 30px;
     border-radius: 25px;
-    background: #8C06F5;
-    color: #FFF;
+    background: rgb(140, 6, 245);
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 27px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     cursor: pointer;
     border: none;
     letter-spacing: 1px;
     position: relative;
-    top: 45px;
-    right: 500px;
+    top: 40px;
+    right: 360px;
 
 
 }
 
 .video-2 {
-    width: 550px;
-    margin-left: 25px;
+    width: 400px;
+    margin-left: 475px;
     border-radius: 20px;
-    margin-top: 20px;
     cursor: pointer;
     position: relative;
-    right: 300px;
+    bottom: 234px;
+
 
 }
 
 .button-2 {
 
-    width: 368px;
-    height: 44px;
+    width: 300px;
+    height: 30px;
     border-radius: 25px;
     background: #8C06F5;
     color: #FFF;
     text-align: center;
-    font-size: 27px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     cursor: pointer;
     border: none;
     letter-spacing: 1px;
     position: relative;
-    top: 45px;
-    right: 760px;
+    bottom: 195px;
+    right: 360px;
 }
 
 .video-3 {
 
-    width: 550px;
-    margin-left: 25px;
+    width: 400px;
+    margin-left: 20px;
     border-radius: 20px;
     margin-top: 20px;
     cursor: pointer;
     position: relative;
-    left: 140%;
-    bottom: 340px;
+    left: 122%;
+    bottom: 488px;
 
 
 }
 
 .button-3 {
-    width: 368px;
-    height: 44px;
+    width: 300px;
+    height: 30px;
     border-radius: 25px;
     background: #8C06F5;
     color: #FFF;
     text-align: center;
-    font-size: 27px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     cursor: pointer;
     border: none;
     letter-spacing: 1px;
     position: relative;
-    left: 90%;
-    bottom: 300px;
+    left: 73%;
+    bottom: 450px;
 }
 
 .div-container {
@@ -140,73 +140,75 @@ span {
 .video-5,
 .video-6 {
     display: inline-block;
-    width: 550px;
-    margin-left: 25px;
+    width: 400px;
+    margin-left: -4px;
     border-radius: 20px;
     position: relative;
-    bottom: 260px;
-
+    bottom: 420px;
 }
 
 .video-5 {
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .video-6 {
-    margin-left: 80px;
+    margin-left: 860px;
+    position: relative;
+    bottom: 103vh;
+    
 }
 
 .button-4 {
-    width: 368px;
-    height: 44px;
+    width: 300px;
+    height: 30px;
     border-radius: 25px;
     background: #8C06F5;
     color: #FFF;
     text-align: center;
-    font-size: 27px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     cursor: pointer;
     border: none;
     letter-spacing: 1px;
     position: relative;
-    bottom: 245px;
-    left: 150px;
+    bottom: 635px;
+    left: 101px;
 
 
 }
 
 .button-5 {
-    width: 368px;
-    height: 44px;
+    width: 300px;
+    height: 30px;
     border-radius: 25px;
     background: #8C06F5;
     color: #FFF;
     text-align: center;
-    font-size: 27px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     cursor: pointer;
     border: none;
     letter-spacing: 1px;
     position: relative;
-    bottom: 290px;
-    left: 800px;
+    bottom: 667px;
+    left: 536px;
 }
 
 .button-6 {
-    width: 368px;
-    height: 44px;
+    width: 300px;
+    height: 30px;
     border-radius: 25px;
     background: #8C06F5;
     color: #FFF;
     text-align: center;
-    font-size: 27px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     cursor: pointer;
     border: none;
     letter-spacing: 1px;
     position: relative;
-    bottom: 332px;
-    left: 1450px;
+    bottom: 110vh;
+    left: 70vw;
 
 
 }
@@ -214,15 +216,15 @@ span {
 p {
 
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     text-transform: capitalize;
     color: white;
-    margin-top: -240px;
+    margin-top: -600px;
     letter-spacing: 1px;
     word-spacing: 1px;
     width: 80%;
-    margin-left: 170px;
+    margin-left: 130px;
 
 
 }
@@ -356,7 +358,8 @@ p {
         letter-spacing: 0.9px;
         position: absolute;
         top: 142vh;
-        left: 88px;;
+        left: 88px;
+        ;
     }
 
     .video-5 {
