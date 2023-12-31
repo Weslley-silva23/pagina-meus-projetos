@@ -6,426 +6,376 @@
 }
 
 body {
-    background: #636161;
-
-
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
 }
 
-div {
-    display: inline-block;
-
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
 }
 
-h1 {
+/* header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
 
-    color: white;
+.header__logo a {
+    color: darkturquoise;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu__descktop ul {
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+    list-style: none;
+    align-items: center;
+}
+
+.menu__descktop a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* sobre */
+main>.container {
+    max-width: 1280px;
+    margin: 20px auto;
+    padding: 0 2%;
+    display: flex;
+    height: 600px;
+}
+
+.container>.img__perfil, .sobre {
+    width: 50%;
+    padding: 20px;
+}
+
+.img__perfil img {
+    width: 400px;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.chamada__links {
+    display: none;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.chamada__links ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.chamada__links a {
+    background-color: #2d2d2d;
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.chamada__links a:hover {
+    background-color: darkturquoise;
+    color: #000;
+}
+
+.container>.sobre h1, h2 {
     text-align: center;
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 2rem;
+    color: darkturquoise;
+}
+
+.container>.sobre h2 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.container>.sobre p {
+    margin-top: 40px;
+    color: #fff;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.btn__sobre {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn__sobre a {
+    padding: 10px 40px;
+    background-color: chartreuse;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 40px;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:994px) {
+    .container>.sobre h1 {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width:866px) {
+    main>.container {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .container>.img__perfil, .sobre {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .img__perfil {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .chamada__links {
+        display: block;
+    }
+
+    .menu__descktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width:434px) {
+    .img__perfil img {
+        width: 300px;
+        height: 100%;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .img__perfil img {
+        width: 200px;
+        height: 100%;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (max-width:284px) {
+    .btn__sobre a {
+        padding: 10px;
+    }
+}
+
+
+/* css da pagina projetos */
+.projetos {
     margin-top: 30px;
 }
 
-span {
-    color: white;
+.projetos>.container h2 {
     text-align: center;
-    font-size: 58px;
-    font-weight: 700;
-    margin-top: 50px;
+    color: #fff;
 }
 
-.video-1 {
-    width: 400px;
-    margin-left: 40px;
-    border-radius: 20px;
-    margin-top: 15px;
-    cursor: pointer;
-
-}
-
-
-.button-1 {
-    width: 300px;
-    height: 30px;
-    border-radius: 25px;
-    background: rgb(140, 6, 245);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    letter-spacing: 1px;
-    position: relative;
-    top: 40px;
-    right: 360px;
-
-
-}
-
-.video-2 {
-    width: 400px;
-    margin-left: 475px;
-    border-radius: 20px;
-    cursor: pointer;
-    position: relative;
-    bottom: 234px;
-
-
-}
-
-.button-2 {
-
-    width: 300px;
-    height: 30px;
-    border-radius: 25px;
-    background: #8C06F5;
-    color: #FFF;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    letter-spacing: 1px;
-    position: relative;
-    bottom: 195px;
-    right: 360px;
-}
-
-.video-3 {
-
-    width: 400px;
-    margin-left: 20px;
-    border-radius: 20px;
-    margin-top: 20px;
-    cursor: pointer;
-    position: relative;
-    left: 122%;
-    bottom: 488px;
-
-
-}
-
-.button-3 {
-    width: 300px;
-    height: 30px;
-    border-radius: 25px;
-    background: #8C06F5;
-    color: #FFF;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    letter-spacing: 1px;
-    position: relative;
-    left: 73%;
-    bottom: 450px;
-}
-
-.div-container {
-
+.container__projetos {
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    gap: 25px;
-    align-items: center;
-    margin-left: 48px;
+    flex-wrap: wrap;
+}
+
+.card__projeto {
+    width: 33.3%;
+    border: 10px solid #000;
+    margin-top: 30px;
+}
+
+.card__projeto>.video {
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.card__btn {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.card__btn button {
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(140, 6, 245);
     cursor: pointer;
-
-
-
-
+    border: 0;
+    border-radius: 30px;
 }
 
-.video-4,
-.video-5,
-.video-6 {
-    display: inline-block;
-    width: 400px;
-    margin-left: -4px;
-    border-radius: 20px;
-    position: relative;
-    bottom: 420px;
+.card__btn a {
+    color: #fff;
+    padding: 10px 30px;
+    display: block;
+    font-size: 1rem;
+    text-decoration: none;
 }
 
-.video-5 {
-    margin-left: 30px;
+.sobre__projetos {
+    width: 100%;
+    margin-top: 30px;
 }
 
-.video-6 {
-    margin-left: 860px;
-    position: relative;
-    bottom: 103vh;
-    
-}
-
-.button-4 {
-    width: 300px;
-    height: 30px;
-    border-radius: 25px;
-    background: #8C06F5;
-    color: #FFF;
+.sobre__projetos p {
+    color: #fff;
+    font-size: 1rem;
     text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    letter-spacing: 1px;
-    position: relative;
-    bottom: 635px;
-    left: 101px;
-
-
+    padding-bottom: 30px;
 }
 
-.button-5 {
-    width: 300px;
-    height: 30px;
-    border-radius: 25px;
-    background: #8C06F5;
-    color: #FFF;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    letter-spacing: 1px;
-    position: relative;
-    bottom: 667px;
-    left: 536px;
-}
-
-.button-6 {
-    width: 300px;
-    height: 30px;
-    border-radius: 25px;
-    background: #8C06F5;
-    color: #FFF;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    letter-spacing: 1px;
-    position: relative;
-    bottom: 110vh;
-    left: 70vw;
-
-
-}
-
-p {
-
-    font-weight: 600;
-    font-size: 25px;
-    text-align: center;
-    text-transform: capitalize;
-    color: white;
-    margin-top: -600px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    width: 80%;
-    margin-left: 130px;
-
-
-}
-
-
-
-
-@media screen and (max-width:767px) {
-
-    body {
-
-        display: flex;
+@media screen and (max-width:866px) {
+    .container__projetos {
         flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
         align-items: center;
-
-
     }
 
+    .card__projeto {
+        width: 100%;
+    }
+}
 
-    h1,
-    span {
+/* css da pagina sobre */
+.sobre-perfil>.container {
+    margin-top: 30px;
+    width: 100%;
+}
 
-        color: #FFF;
-        text-align: center;
-        font-size: 28px;
-        font-weight: 700;
-        letter-spacing: 2px;
-        margin-left: 45px;
-        position: static;
+.sobre-perfil>.container h2 {
+    width: 100%;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
 
+.sobre-perfil>.container h2>b {
+    color: #8A2BE2;
+}
 
+.sobre__box {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+}
 
+.info {
+    width: 33.3%;
+    padding: 0 2%;
+}
+
+.sobre__box>.info h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.sobre__box>.info p {
+    font: 1rem;
+    color: #fff;
+    max-width: 100%;
+}
+
+.sobre__box>.info p>b {
+    color: #8A2BE2;
+    font-weight: bold;
+}
+
+.baixar-cv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.baixar-cv button {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: forestgreen;
+    border: 0;
+    cursor: pointer;
+}
+
+.baixar-cv button a {
+    color: #fff;
+    font-weight: bold;
+    font: 1.5rem;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+.skills {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.skills h3 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.skills-icon {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px 0;
+}
+
+.skills-icon i {
+    color: #fff;
+    font-size: 4rem;
+}
+
+@media screen and (max-width:866px) {
+    .sobre__box {
+        flex-direction: column;
     }
 
-    .video-1 {
-
-        margin-left: 6vw;
-        width: 370px;
-
-
-
+    .info {
+        margin-top: 30px;
+        width: 100%;
     }
 
-    .button-1 {
-
-        width: 220px;
-        height: 30px;
-        fill: #8A2BE2;
-        color: #FFF;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 700;
-        letter-spacing: 0.9px;
-        position: relative;
-        left: 21vw;
-        top: 1vh;
-
+    .skills-icon i {
+        font-size: 2rem;
     }
-
-    .video-2 {
-
-        width: 370px;
-        position: relative;
-        left: 0vw;
-
-
-    }
-
-    .button-2 {
-
-        width: 220px;
-        height: 30px;
-        fill: #8A2BE2;
-        color: #FFF;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 700;
-        letter-spacing: 0.9px;
-        position: relative;
-        left: 21vw;
-        top: 1vh;
-
-    }
-
-    .video-3 {
-        width: 370px;
-        position: relative;
-        left: 0vw;
-        top: 1vh;
-
-
-
-    }
-
-    .button-3 {
-
-        width: 220px;
-        height: 30px;
-        fill: #8A2BE2;
-        color: #FFF;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 700;
-        letter-spacing: 0.9px;
-        position: relative;
-        left: 21vw;
-        top: 1vh;
-
-    }
-
-    .video-4 {
-
-        width: 370px;
-        position: relative;
-        left: 0vw;
-        top: 4vh;
-
-    }
-
-
-    .button-4 {
-        width: 220px;
-        height: 30px;
-        fill: #8A2BE2;
-        color: #FFF;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 700;
-        letter-spacing: 0.9px;
-        position: absolute;
-        top: 142vh;
-        left: 88px;
-        ;
-    }
-
-    .video-5 {
-
-        width: 370px;
-        position: relative;
-        right: 18vw;
-        top: 11vh;
-
-
-    }
-
-    .button-5 {
-
-        width: 220px;
-        height: 30px;
-        fill: #8A2BE2;
-        color: #FFF;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 700;
-        letter-spacing: 0.9px;
-        position: absolute;
-        top: 176vh;
-        left: 85px;
-
-    }
-
-
-    .video-6 {
-        width: 370px;
-        position: relative;
-        top: 19vh;
-        right: 13vw;
-    }
-
-    .button-6 {
-
-        width: 220px;
-        height: 30px;
-        fill: #8A2BE2;
-        color: #FFF;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 700;
-        letter-spacing: 0.9px;
-        position: absolute;
-        left: 22vw;
-        top: 210vh;
-
-
-    }
-
-    p {
-
-        color: #FFF;
-        text-align: center;
-        font-size: 18px;
-        font-weight: 600;
-        position: relative;
-        top: 47vh;
-        width: 350px;
-        right: 19vw;
-        text-transform: capitalize;
-        letter-spacing: 1px;
-        word-spacing: 2px;
-    }
-
 }
